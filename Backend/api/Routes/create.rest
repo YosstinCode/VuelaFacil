@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/route
+Content-Type: application/json
+
+{
+    "route_code":"B15",
+    "destination_city":"Cartagena",
+    "origin_city":"Bogota",
+    "price":800000,
+    "departure_date":"",
+    "return_date":"",
+    "discount":0.50,
+    "plane":[{}]
+}

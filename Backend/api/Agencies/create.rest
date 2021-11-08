@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/agency
+Content-Type: application/json
+
+{ 
+    "name":"Aerobus", 
+    "description":"otra descripcion bien cool", 
+    "phone_number":"123456", 
+    "terms_and_conditions":true 
+}

@@ -1,0 +1,3 @@
+PUT http://localhost:3001/api/user/name/Yosstin/yosstin
+Content-Type: application/json
+
