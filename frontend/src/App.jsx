@@ -1,7 +1,12 @@
-import "./App.css";
+import Home from "./pages/Home";
+import { Router, Route } from "wouter";
 
-function App() {
-  return <h1>hola mundo </h1>;
-}
+const App = () => {
+  return (
+    <Router>
+      <Route path="/" component={Home} />
+    </Router>
+  );
+};
 
 export default App;
