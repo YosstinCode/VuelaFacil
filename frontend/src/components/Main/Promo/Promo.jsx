@@ -3,9 +3,11 @@ import "./styles.css"
 
 const Promo = () => {
     return (
-        <div>
-            <h1>Wenas wenas</h1>
-        </div>
+        <div class="background">
+  <div class="ciudad">Bogotá</div>
+  <h3 class="center">El mejor precio descuento del 15%</h3>
+  <div class="ciudad bottom ciudadTwo">Cartagena</div>
+</div>
     )
 }
 
