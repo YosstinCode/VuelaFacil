@@ -4,7 +4,7 @@ import menu from "../../assets/menu.png";
 
 const Nav = () => {
   return (
-    <nav className="bg-purple-700 text-white flex justify-between items-center p-4 min-w-screen h-16">
+    <nav className="mb-12 bg-purple-700 text-white flex justify-between items-center p-4 min-w-screen h-16">
       <h1 className="text-2xl font-semibold h-auto md:text-3xl lg:text-4xl">
         VuelaFacil
       </h1>
