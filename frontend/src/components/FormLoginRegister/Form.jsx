@@ -13,7 +13,7 @@ const Form = ({ islogin = false }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      class=" bg-black bg-opacity-50 w-10/12 md:w-8/12 md:h-2/5 flex flex-col justify-center md:text-lg lg:text-2xl lg:w-5/12 lg:h-3/5"
+      class=" bg-black bg-opacity-50 w-10/12 md:w-8/12 md:h-2/5 flex flex-col justify-center md:text-lg lg:text-2xl lg:w-5/12 lg:h-3/4"
     >
       <h3 className="font-semibold text-3xl md:text-4xl lg:text-5xl text-center py-6">
         {islogin ? "Iniciar sesión" : "Registrarse"}

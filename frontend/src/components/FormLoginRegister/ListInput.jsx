@@ -21,8 +21,8 @@ const inputs = [
 ];
 
 const ListInput = ({ handleChange }) => {
-  return inputs.map((input) => (
-    <Input {...input} handleChange={handleChange} />
+  return inputs.map((input, index) => (
+    <Input key={index} {...input} handleChange={handleChange} />
   ));
 };
 

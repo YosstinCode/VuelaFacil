@@ -8,7 +8,7 @@ const Input = ({ text, img, handleChange, placeholder, name, type }) => {
         <h4 className="text-xl md:text-2xl font-medium">{text}</h4>
       </label>
       <input
-        className="text-gray-900 bg-transparent border-b-2"
+        className="text-white bg-transparent border-b-2"
         type={type}
         onChange={handleChange}
         placeholder={placeholder}
