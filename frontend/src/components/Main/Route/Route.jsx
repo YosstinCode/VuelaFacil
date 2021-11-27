@@ -5,7 +5,7 @@ import DestinyAndDate from "./DestinyAndDate";
 
 const Route = () => {
   return (
-    <article className="relative w-72 h-96 rounded-3xl my-8">
+    <article className="relative w-72 h-96 rounded-3xl my-8 m-auto">
       <img src={ciudad} alt="" />
       <div className="container absolute -bottom-10 bg-purple-400 rounded-3xl">
         <div className="PrecioYCodigo flex justify-between py-2 px-4">

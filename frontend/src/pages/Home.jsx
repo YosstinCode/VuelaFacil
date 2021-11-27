@@ -12,7 +12,6 @@ const Home = () => {
       <Layout>
         <Seeker />
         <ListRoute />
-        <ListRoute />
       </Layout>
     </>
   );

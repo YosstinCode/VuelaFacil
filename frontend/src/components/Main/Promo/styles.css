@@ -1,67 +1,79 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-  }
-  
-  *,*::before,*::after{
-    box-sizing: inherit;
-  }
-  
-  
-  .background{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url("../../../assets/cartagena.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 320px;
-    height: 299px;
-    position: relative;
-    background-color: aqua;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .ciudad{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 0 20px 20px 0;
-    background: linear-gradient(to right, rgba(109,40,217),rgb(51, 18, 104));
-    width: 203px;
-    height: 51px;
-    align-self: flex-start;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  .ciudadTwo{
-    background: linear-gradient(to left, rgba(109,40,217),rgb(51, 18, 104));
-    align-self: flex-end;
-    justify-self: flex-end;
-    
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("../../../assets/cartagena.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 299px;
+  position: relative;
+  background-color: rgba(31, 31, 31, 0.441);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .background {
+    margin-bottom: 0;
   }
-  
-  .bottom{
-      position: absolute;
-    bottom: 0;
-    right: 0;
-    border-radius: 20px 0 0 20px;
-  
+}
+
+@media (min-width: 1024px) {
+  .background {
+    margin-bottom: 0;
   }
-  
-  .center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    width: 70%;
-    height: 100%;
-    color: white;
-    font-size:24px;
-    text-align: center;
-    margin: 0 auto;
-  }
+}
+.ciudad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 0 20px 20px 0;
+  background: linear-gradient(to right, rgba(109, 40, 217), rgb(51, 18, 104));
+  width: 203px;
+  height: 51px;
+  align-self: flex-start;
+}
+
+.ciudadTwo {
+  background: linear-gradient(to left, rgba(109, 40, 217), rgb(51, 18, 104));
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 100%;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+}
