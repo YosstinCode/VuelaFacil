@@ -1,16 +1,12 @@
 # VUELA FACIL
 
-La función principal de esta herramienta informática es mantener en tiempo real en la
-web, la información de los vuelos que dispone la aerolínea involucrados en el
-transporte aéreo de viajeros y/o usuarios de esta. Usuarios que suelen ser directos o
-indirectos, como aquellos que solicitan el servicio a través de las agencias de viaje del
-país.
+Este proyecto pretende mejorar y estandarizar las buenas prácticas en el ejercicio de recolección, almacenamiento y disposición de la información de los itinerarios disponibles para viajeros y agencias de viajes aliadas en todo el país, de acuerdo con los vuelos de los que dispone la aerolínea.
 
 
 ### Pre-requisitos 📋
 
 
-Es necesario tener instalado node.js en su version 17.1.0
+Es necesario tener instalado node.js en su latest version.
 
 
 ### Instalación 🔧
@@ -32,6 +28,7 @@ $ git clone https://github.com/YosstinCode/VuelaFacil.git
 * [Tailwindcss](https://tailwindcss.com)
 * [React](https://reactjs.org)
 * [express](https://expressjs.com)
+* [Vite](https://vitejs.dev)
 
 
 ## Autores ✒️
