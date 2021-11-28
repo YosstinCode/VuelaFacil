@@ -9,9 +9,9 @@ país.
 
 ### Pre-requisitos 📋
 
-```
-make sure you have node.js installed
-```
+
+Es necesario tener instalado node.js en su version 17.1.0
+
 
 ### Instalación 🔧
 
@@ -30,6 +30,8 @@ $ git clone https://github.com/YosstinCode/VuelaFacil.git
 
 * [Node.js](https://nodejs.org/es/)
 * [Tailwindcss](https://tailwindcss.com)
+* [React](https://reactjs.org)
+* [express](https://expressjs.com)
 
 
 ## Autores ✒️
@@ -43,5 +45,5 @@ $ git clone https://github.com/YosstinCode/VuelaFacil.git
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (xxxxxx) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (SIC) 
 
